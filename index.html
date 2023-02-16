@@ -1,13 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body style="background-color: pink;">
-    hello world!
-    
-</body>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Basic document flow</title>
+
+    <style>
+      body {
+        width: 500px;
+        margin: 0 auto;
+        position: relative;
+        background-color: #E6CEEB;
+      }
+
+      p {
+        background: #E8F7E4;
+        border: 3px solid #899E83;
+        padding: 10px;
+        margin: 10px;
+        font-family: monospace;
+        font-size: 40 px;
+      }
+
+      h1 {
+        position: fixed;
+        top: 0px;
+        width: 500px;
+        margin-top: 0;
+        background: #E6CEEB;
+        padding: 10px;
+        font-family: monospace;
+        font-size: 40px;
+      }
+      
+      p:nth-of-type(1) {
+        margin-top: 70px;
+      }
+
+      img {
+        position: relative;
+        margin-inline-end: 10s;
+        padding: 7px;
+        border: 3px solid #654F85;
+      }
+s
+ 
+    </style>
+  </head>
+  <body>
+    <h1>Kaia Baker's Bakery</h1>
+
+    <p> Perfect for any time of the year, our Apple Crumble is melt-in-your mouth delicious! Plus, this is the perfect, easy recipe to cook with your little ones. <img src="applecrumble.jpeg" alt="applecrumble" width="400" height="auto"></p>
+
+    <p>The summer is quickly approaching! Try out our new Raspberry Ice Cream Cake. With a sweet and tangy twist, this recipe will keep you cool all season.<img src="raspcake.jpeg" alt="raspberrycake" width="400" height="auto"></p>
+
+    <p>These are my world famous Rosemary Cookies. <span>Perfect for any holiday or birthday, these cookies will leave you feeling fulfilled and light at the same time. <img src="rosemarycookies.jpg" alt="rosemarycookies" width="400" height="auto"
+        " ></p>
+
+  </body>
 </html>
