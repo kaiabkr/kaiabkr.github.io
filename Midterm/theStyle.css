@@ -124,7 +124,6 @@ p{
 
 }
 
-
 .images {
     display: inline-block;
     margin: 1.5%;
@@ -198,6 +197,7 @@ img {
     text-align: end;
 
 }
+
 
 
 .businessContainer {
@@ -283,4 +283,233 @@ img {
 
 .aboutImage {
     display: block;
+}
+
+@media screen and (max-width: 600px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-color: #88A08D;
+        backdrop-filter: blur (5px);
+        font-family: AgrandirTight;
+        font-weight: bold;
+        font-size: 12px;
+        font-style: bold;
+        color: #4F2A2B;
+    }
+    .navigation{
+        background-color: #B97F65;
+        display: flex;
+        justify-content: space-around;
+        border: solid 7px #537569;
+        border-radius: 20px;
+        margin: 0.5%;   
+    }
+
+    .footnote {
+        display: flex;
+        justify-content: start;
+        margin-top: auto;
+        margin: 2.5%;
+        padding: 20px;
+        border-radius: 20px;
+        border: solid 7px #A46D5C;
+        background-color: #B87E65;
+        color: #4F2A2B;;
+    }
+
+
+    p1 {
+        display: flex;
+        justify-content: start;
+        text-align: start;
+        margin: 0.5%;
+        padding: 20px;
+        font-size: 12px;
+        color: #4F2A2B;;
+    }
+    
+    p2 {
+        display: flex;
+        justify-content: start;
+        text-align: start;
+        margin: 1.5%;
+        padding: 20px;
+        font-size: 12px;
+        color: #4F2A2B;;
+    }
+    p3 {
+        display: flex;
+        justify-content: start;
+        text-align: start;
+        margin: 1.5%;
+        padding: 20px;
+        font-size: 12px;
+        color: #4F2A2B;;
+    }
+
+    #banner {
+        display: block;
+        margin: 1.5%;
+        text-align:center;
+        border: 7px solid  #537569;
+        border-radius: 20px;
+    }
+
+    .images {
+        flex-direction: column;
+        margin: 1.5%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 4px;
+    }
+
+    img {
+        max-width: 80%;
+        max-height: 80%;
+    }
+    #imagecaption1 {
+        position: absolute;
+        background: #A46D5C;
+        top: 720px;
+        left: 260px;
+        padding: 15px;
+        border: solid 7px #88A08D;
+        border-radius: 20px;
+        text-align: start;
+    
+    }
+    
+    #imagecaption2 {
+        position: absolute;
+        background: #A46D5C;
+        top: 720px;
+        left: 340px;
+        padding: 25px;
+        border: solid 7px #88A08D;
+        border-radius: 20px;
+        text-align: start;
+    
+    }
+    
+    #imagecaption3 {
+        position: absolute;
+        background: #A46D5C;
+        top: 877px;
+        left: 420px;
+        padding: 15px;
+        border: solid 7px #88A08D;
+        border-radius: 20px;
+        text-align: start;
+    }
+    
+    #imagecaption4 {
+        position: fixed;
+        background: #A46D5C;
+        margin-top: 100px;
+        padding: 15px;
+        border: solid 7px #88A08D;
+        border-radius: 20px;
+        text-align: center;
+    
+    }
+    
+    #imagecaption4b {
+        position: absolute;
+        background: #A46D5C;
+        top: 1130px;
+        left: 80px;
+        margin-left: 0px;
+        padding: 45px;
+        border: solid 7px #88A08D;
+        border-radius: 20px;
+        text-align: center;
+    
+    }
+    
+    .businessContainer {
+        margin-top: 40px;
+        margin: 2.5%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #A46D5C;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .businessItem {
+        display: flex;
+        justify-content: space-around;
+        margin: 2.5%;
+        grid-template-columns: repeat(2,1fr);
+        text-align: end;
+        border: 5px solid #4F2A2B;
+        border-radius: 20px;
+    }
+    
+    .businessDescription {
+        display: block;
+        position: relative;
+        text-align: center;
+    
+    }
+    
+    .socialContainer {
+        margin-top: 40px;
+        margin: 5.5%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #A46D5C;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .socialItem {
+        display: flex;
+        justify-content: space-around;
+        margin: 2.5%;
+        grid-template-columns: repeat(2,1fr);
+        text-align: end;
+        border: 5px solid #4F2A2B;
+        border-radius: 20px;
+    }
+    
+    .socialDescription {
+        display: block;
+        justify-content: center;
+        text-align: start;
+    }
+    
+    .aboutContainer {
+        margin-top: 40px;
+        margin: 0.5%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #A46D5C;
+        border-radius: 20px;
+    }
+    .aboutItem {
+        max-width: 75vs;
+        display: grid;
+        margin: 2em;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .aboutDescription {
+        display: block;
+        padding: 35px;
+        position: relative;
+        margin: 25px;
+        
+    }
+    
+    .aboutImage {
+        display: block;
+    }
 }
