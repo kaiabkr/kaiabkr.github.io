@@ -1,0 +1,77 @@
+@font-face{
+    font-family: Sedgwick;
+    src: url(SedgwickAveDisplay-Regular.ttf);
+    }
+
+body {
+    margin: 5vw 10vw 0px 10vw;
+    padding: 0px;
+    background-color: #A299E0;
+    color: #1C1163;
+    font-family:Sedgwick;
+    font-size: 2rem;
+    text-align: center;
+
+  }
+  
+  body * {
+    box-sizing: border-box;
+
+  }
+
+  h1 {
+    font-size: 90px;
+    text-align: center;
+    margin: 50px;
+
+  }
+
+  #main {
+    padding: 4px;
+    border: 7px solid black;
+    border-radius: 10px;
+  }
+  
+  input, button {
+    font-family:Sedgwick;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    border: 7px solid black;
+    border-radius: 10px;
+  }
+  
+  #title {
+    /* text-shadow: 0px 0px 13px #fff; */
+    transition: all 2s;
+  }
+  
+  .specialTitle {
+    text-decoration: wavy;
+    color: black;
+    text-shadow: 0px 0px 13px #ff0072;
+  }
+  
+  #outputText {
+    background-color: #988CE6;
+    border: 7px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 2vmin;
+  }
+
+  #banner {
+    display: flex;
+    margin: 0%;
+    text-align: center;
+    border: 7px solid  black;
+    border-radius: 10px;
+   
+}
+.images {
+    display: inline-block;
+    margin: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
