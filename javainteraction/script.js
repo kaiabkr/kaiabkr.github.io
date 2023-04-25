@@ -50,5 +50,9 @@ function restyle() {
   var randFonts = fontChoices;
   outputParagraph.style.font =  randFonts;
 
+
+  Fancybox.bind('[data-fancybox="gallery"]', {
+    hideScrollbar: false,
+  });
   
 }
